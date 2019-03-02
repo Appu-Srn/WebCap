@@ -23,6 +23,42 @@
   color: #61dafb;
 }
 
+.Tangerine{
+  font-family: 'Tangerine', serif;
+        font-size: 48px;
+}
+a {
+  color: #41567b;
+
+}
+body {
+  background-color: #e1eec3;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  /* width: 250px; */
+  position: absolute;
+  top: 98px;
+  right: 0;
+  height: auto;
+  z-index: 999;
+  background: #D3D3D3;
+  color: #fff;
+  transition: all 0.3s;
+
+width:20%;
+}
+/* .navbar-toggler-icon{
+  color: black;
+} */
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
